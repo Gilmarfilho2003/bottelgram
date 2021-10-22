@@ -24,7 +24,7 @@ c = requests.session()
 
 for i in range(5000000):
         sys.stdout.write("\r")
-        sys.stdout.write("\033[1;30m# \033[1;33mâ–‚â–ƒâ–…â–‡â–ˆâ–“â–’â–‘SUB N lLike..!")
+        sys.stdout.write("\033[1;30m# \033[1;33mâfeito por gilmar filho..!")
         sys.stdout.flush() 
         sleep(2)
         os.system("clear")
@@ -133,7 +133,7 @@ print(banner)
 print(
     "\033[1;31mWELCOME..\033[1;0m:",
     myself.first_name,
-    "\n\033[1;0mBot Mining ltc Bot",
+    "\n\033[1;0mBot Mining tron Bot",
 )
 
 
