@@ -150,7 +150,7 @@ try:
         sys.stdout.write("\r")
         sys.stdout.write("\033[1;30m# \033[1;33mAnalyzing url ")
         sys.stdout.flush()
-        client.send_message("Visit sites")
+        c client.send_message(entity=channel_entity, message="Visit sites")
         sleep(3)
         posts = client(
             GetHistoryRequest(
