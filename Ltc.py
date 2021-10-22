@@ -46,10 +46,10 @@ banner = """\033[1;0  Exaon tech  
          / /'          \ ;-. \
    __/ /           __) \ ) `|
     ((='--;)         (,___/(,_/ITS EXAON 
-\033[1;32mScript  \033[1;31m :\033[1;0m Exaon
-\033[1;32mEdited  \033[1;31m :\033[1;0m Exaon
-\033[1;32mYoutube \033[1;31m : \033[1;0mExaon Tech
-\033[1;32mTelegram \033[1;31m:\033[1;0m Exaon tech """
+\033[1;32mScript  \033[1;31m :\033[1;0m Gilmar
+\033[1;32mEdited  \033[1;31m :\033[1;0m Gilmar
+\033[1;32mYoutube \033[1;31m : \033[1;0mTUTORIAL BR
+\033[1;32mTelegram \033[1;31m:\033[1;0m Gilmar """
 
 if not os.path.exists("session"):
     os.makedirs("session")
@@ -110,7 +110,7 @@ def tunggu(x):
 
 
 ua = {
-    "User-Agent": "Mozilla/5.0 (Linux; Android 5.1; A1603 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 OPR/80.0.4170.63"
 }
 
 
@@ -150,7 +150,7 @@ try:
         sys.stdout.write("\r")
         sys.stdout.write("\033[1;30m# \033[1;33mAnalyzing url ")
         sys.stdout.flush()
-        client.send_message(entity=channel_entity, message="ðŸ–¥ Visit sites")
+        client.send_message(entity=channel_entity, message="visitando site")
         sleep(3)
         posts = client(
             GetHistoryRequest(
