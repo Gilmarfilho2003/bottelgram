@@ -24,28 +24,20 @@ c = requests.session()
 
 for i in range(5000000):
         sys.stdout.write("\r")
-        sys.stdout.write("\033[1;30m# \033[1;33mâ–‚â–ƒâ–…â–‡â–ˆâ–“â–’â–‘SUB N lLike..!")
+        sys.stdout.write("\033[1;30m# \033[1;33mleave your like and comment..!")
         sys.stdout.flush() 
         sleep(2)
         os.system("clear")
         break
-os.system("termux-open-url  https://youtube.com/channel/UCf_tfuMFBEmeyUEhRkwTH3A ")
+os.system("termux-open-url  https://www.youtube.com/channel/UCv2gTrrkwheHH8a5ckCiIHQ/playlists")
 
-banner = """\033[1;0  Exaon tech  
-        _____,    _..-=-=-=-=-====--,
-     _.'a   /  .-',___,..=--=--==-'`
-    ( _     \ /  //___/-=---=----'
-     ` `\    /  //---/--==----=-'
-  ,-.    | / \_//-_.'==-==---='
- (.-.`\  | |'../-'=-=-=-=--'
-  (' `\`\| //_|-\.`;-~````~,        _
-       \ | \_,_,_\.'        \     .'_`\
-        `\            ,    , \    || `\\
-          \    /   _.--\    \ '._.'/  / |
-          /  /`---'   \ \   |`'---'   \/
-         / /'          \ ;-. \
-   __/ /           __) \ ) `|
-    ((='--;)         (,___/(,_/ITS EXAON 
+banner = """\033[1;0  
+ ▬▬▬.◙.▬▬▬
+═▂▄▄▓▄▄▂
+◢◤ █▀▀████▄▄▄▄▄▄◢◤
+█▄ █ :) ██▀▀▀▀▀▀▀╬
+◥█████◤
+══╩══╩══
 \033[1;32mScript  \033[1;31m :\033[1;0m Exaon
 \033[1;32mEdited  \033[1;31m :\033[1;0m Exaon
 \033[1;32mYoutube \033[1;31m : \033[1;0mExaon Tech
@@ -110,7 +102,7 @@ def tunggu(x):
 
 
 ua = {
-    "User-Agent": "Mozilla/5.0 (Linux; Android 5.1; A1603 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 OPR/80.0.4170.63"
 }
 
 
